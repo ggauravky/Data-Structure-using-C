@@ -1,205 +1,90 @@
 <div align="center">
 
-# 📚 Data Structures in C
+<img src="https://img.icons8.com/color/96/000000/c-programming.png" alt="C Logo" width="80"/>
 
-[![C Language](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white)](<https://en.wikipedia.org/wiki/C_(programming_language)>)
-[![MIT License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
-[![GitHub Stars](https://img.shields.io/github/stars/ggauravky/Data-Structure-using-C?style=flat-square)](https://github.com/ggauravky/Data-Structure-using-C/stargazers)
-[![GitHub Forks](https://img.shields.io/github/forks/ggauravky/Data-Structure-using-C?style=flat-square)](https://github.com/ggauravky/Data-Structure-using-C/network/members)
+# Data Structures in C
 
-**Learn Data Structures & Algorithms with Easy C Programs**
+![C](https://img.shields.io/badge/Language-C-blue?style=for-the-badge&logo=c)
+![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
+![Stars](https://img.shields.io/github/stars/ggauravky/Data-Structure-using-C?style=for-the-badge)
 
-_Perfect for beginners and college students_ 🎓
+**Simple C programs to learn Data Structures step by step**
 
-[Get Started](#-quick-start) • [View Examples](#-what-you-will-find) • [Contribute](#-contributing)
+Perfect for college students and beginners 🎓
+
+[Get Started](#-getting-started) • [Topics](#-topics-covered) • [How to Use](#-how-to-use)
 
 </div>
 
 ---
 
-## 🎯 About This Project
+## 📖 About
 
-This repository contains **simple C programs** to help you learn data structures. Each program is:
+This project has easy-to-understand C programs for learning data structures. Every program has comments to help you learn.
 
-- ✅ Easy to read and understand
-- ✅ Well commented for beginners
-- ✅ Ready to compile and run
-- ✅ Includes practice exercises
+**Why use this?**
 
----
-
-## � What You Will Find
-
-<table>
-<tr>
-<td width="50%">
-
-### 📊 Data Structures
-
-- **Arrays** - Basic operations, searching
-- **Linked Lists** - Single, Double, Circular
-- **Stacks** - Array & Linked List based
-- **Queues** - FIFO operations
-- **Trees** - Binary Trees, BST
-- **Pointers** - Memory basics
-
-</td>
-<td width="50%">
-
-### 🔧 Algorithms
-
-- **Searching** - Linear, Binary Search
-- **Sorting** - Bubble Sort, Selection Sort
-- **Insertion** - Add elements
-- **Deletion** - Remove elements
-- **Traversal** - Visit all elements
-- **Expression Conversion** - Infix to Postfix
-
-</td>
-</tr>
-</table>
+- ✅ Simple and clear code
+- ✅ Good for beginners
+- ✅ Works on all computers
+- ✅ Extra practice files included
 
 ---
 
-## 📁 Folder Structure
+## 📚 Topics Covered
 
-```
-📁 Data-Structure-using-C/
-│
-├── 📂 001 Arrays/
-│   ├── Binary_search.c
-│   ├── Linear_Search.c
-│   ├── insertion_array.c
-│   └── 📂 Revision/
-│
-├── 📂 002 Linked List/
-│   ├── intro_linked_list.c
-│   ├── Doubly Linked Lists.c
-│   └── 📂 Revision/
-│
-├── 📂 003 Stack/
-│   ├── Operations in Stack.c
-│   ├── Parenthesis Matching.c
-│   └── Infix to Postfix.c
-│
-├── 📂 004 Pointer Revision/
-│
-├── 📂 005 Queue/
-│
-├── 📂 006 Link List/ (More Practice)
-│
-└── 📂 007 Trees/
-    ├── Binary Tree Traversals.c
-    └── Delete Node in BST.c
-```
+| Topic            | What You'll Learn                                     |
+| ---------------- | ----------------------------------------------------- |
+| **Arrays**       | Store and find data, insert and delete items          |
+| **Linked Lists** | Connect data with pointers (single, double, circular) |
+| **Stacks**       | Last-in, first-out operations, parenthesis checking   |
+| **Queues**       | First-in, first-out operations                        |
+| **Trees**        | Binary trees, search trees, tree walking              |
+| **Sorting**      | Bubble, selection, insertion, quick, merge sort       |
+| **Pointers**     | How memory works in C                                 |
 
 ---
 
-## 🚀 Quick Start
+## 📂 What's Inside
 
-### Step 1: Download the Code
-
-```bash
-git clone https://github.com/ggauravky/Data-Structure-using-C.git
-cd Data-Structure-using-C
+```
+001 Arrays/          → Basic array programs
+002 Linked List/     → All types of linked lists
+003 Stack/           → Stack using array and linked list
+004 Pointer Revision/ → Understand pointers
+005 Queue/           → Queue operations
+006 Link List/       → More linked list practice
+007 Trees/           → Binary trees and operations
+008 Sorting/         → All sorting methods
 ```
 
-### Step 2: Pick a Topic
-
-```bash
-cd "001 Arrays"          # Learn about arrays
-cd "002 Linked List"     # Learn about linked lists
-cd "003 Stack"           # Learn about stacks
-cd "005 Queue"           # Learn about queues
-cd "007 Trees"           # Learn about trees
-```
-
-### Step 3: Run a Program
-
-```bash
-gcc -o myprogram filename.c    # Compile
-./myprogram                     # Run (Linux/Mac)
-myprogram.exe                   # Run (Windows)
-```
-
-**Example:**
-
-```bash
-cd "001 Arrays"
-gcc -o search Binary_search.c
-./search
-```
+Each folder has a **Revision/** subfolder with extra practice programs.
 
 ---
 
-## � What's Inside Each Folder
+## 🚀 Getting Started
 
-### 📊 Arrays
+### What You Need
 
-Learn how to work with arrays - the most basic data structure
+- **GCC Compiler** - to run C programs
+- **Text Editor** - VS Code, Code::Blocks, or any editor
+- **Terminal** - to type commands
 
-- Insert and delete elements
-- Search using Linear and Binary search
-- Practice problems included
-
-### 🔗 Linked Lists
-
-Understand how nodes connect to form lists
-
-- Single, Double, and Circular linked lists
-- Insert, delete, and search operations
-- Count nodes and sort lists
-
-### 📚 Stacks
-
-Learn Last-In-First-Out (LIFO) structure
-
-- Push and Pop operations
-- Check balanced parentheses
-- Convert Infix to Postfix expressions
-
-### 🎯 Queues
-
-Learn First-In-First-Out (FIFO) structure
-
-- Enqueue and Dequeue operations
-- Array-based implementation
-
-### 🌳 Trees
-
-Learn hierarchical data structures
-
-- Binary Trees and Binary Search Trees
-- Tree Traversal (Inorder, Preorder, Postorder)
-- Insert and delete nodes
-
----
-
-## 🛠️ Setup Requirements
-
-You need these tools to run the programs:
-
-| Tool             | Purpose             | Download                                                   |
-| ---------------- | ------------------- | ---------------------------------------------------------- |
-| **GCC Compiler** | Compile C programs  | [MinGW (Windows)](https://sourceforge.net/projects/mingw/) |
-| **Code Editor**  | Write and edit code | [VS Code](https://code.visualstudio.com/)                  |
-| **Terminal**     | Run commands        | Built into Windows/Mac/Linux                               |
-
-### Quick Install Commands
+### Install GCC
 
 **Windows:**
 
 ```bash
-winget install MinGW.MinGW
+Download from: https://sourceforge.net/projects/mingw/
 ```
 
-**Linux (Ubuntu/Debian):**
+**Linux:**
 
 ```bash
-sudo apt update && sudo apt install gcc
+sudo apt install gcc
 ```
 
-**macOS:**
+**Mac:**
 
 ```bash
 xcode-select --install
@@ -207,59 +92,139 @@ xcode-select --install
 
 ---
 
-## 🤝 Want to Contribute?
+## 💻 How to Use
 
-Found a bug or want to add something? Here's how:
+### 1. Download This Project
 
-1. **Fork** this repository
-2. **Create** a new branch (`git checkout -b my-feature`)
-3. **Make** your changes
-4. **Commit** (`git commit -m 'Added new feature'`)
-5. **Push** (`git push origin my-feature`)
-6. **Open** a Pull Request
+```bash
+git clone https://github.com/ggauravky/Data-Structure-using-C.git
+cd Data-Structure-using-C
+```
+
+### 2. Choose a Topic
+
+```bash
+cd "001 Arrays"      # Start here if you're new
+cd "002 Linked List"
+cd "003 Stack"
+```
+
+### 3. Run Any Program
+
+```bash
+# Compile the program
+gcc filename.c -o output
+
+# Run it
+./output              # On Linux/Mac
+output.exe            # On Windows
+```
+
+**Example:**
+
+```bash
+cd "001 Arrays"
+gcc Linear_Search.c -o search
+./search
+```
 
 ---
 
-## 🌟 Show Your Support
+## 📝 Program Examples
 
-If this project helped you, please give it a ⭐ star!
+### Arrays
 
-[![GitHub Stars](https://img.shields.io/github/stars/ggauravky/Data-Structure-using-C?style=social)](https://github.com/ggauravky/Data-Structure-using-C/stargazers)
-[![GitHub Forks](https://img.shields.io/github/forks/ggauravky/Data-Structure-using-C?style=social)](https://github.com/ggauravky/Data-Structure-using-C/network/members)
+- `Linear_Search.c` - Find an item in a list
+- `Binary_search.c` - Fast search in sorted list
+- `insertion_array.c` - Add items to array
+- `deletion_array.c` - Remove items from array
+
+### Linked Lists
+
+- `intro_linked_list.c` - Create your first linked list
+- `traverse_create.c` - Visit all nodes
+- `Doubly Linked Lists.c` - Two-way linked list
+- `Circular Linked Lists.c` - Loop back to start
+
+### Stacks
+
+- `Implementing Stack using array.c` - Stack basics
+- `Push, PopOperationsinStack.c` - Add and remove
+- `Parenthesis Matching Problem.c` - Check brackets
+- `Coding Infix to Postfix.c` - Convert expressions
+
+### Trees & Sorting
+
+- `simplebinarytree.c` - Your first tree
+- `BinaryTreeAllTraversals.c` - Walk through tree
+- `BubbleSort.c` - Basic sorting
+- `QuickSort.c` - Fast sorting
 
 ---
 
-## 📞 Connect With Me
+## 🎯 Learning Path
+
+```
+1. Start → 001 Arrays (understand basics)
+2. Next → 002 Linked List (learn pointers)
+3. Then → 003 Stack (LIFO concept)
+4. After → 005 Queue (FIFO concept)
+5. Finally → 007 Trees (advanced structure)
+```
+
+**Tip:** Do one program daily and try changing the code to see what happens!
+
+---
+
+## 🤝 Contribute
+
+Want to help? You can:
+
+- Fix bugs or errors
+- Add more programs
+- Improve comments
+- Suggest new topics
+
+**Steps:**
+
+1. Fork this project
+2. Make your changes
+3. Send a pull request
+
+---
+
+## 📬 Connect
 
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gauravky/)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ggauravky)
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/the_gau_rav/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/gauravky/)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-black?style=for-the-badge&logo=github)](https://github.com/ggauravky)
+[![Instagram](https://img.shields.io/badge/Instagram-Follow-E4405F?style=for-the-badge&logo=instagram)](https://www.instagram.com/the_gau_rav/)
 
-**Have questions? Feel free to reach out!** 💬
+Questions? Feel free to ask! 💬
 
 </div>
 
 ---
 
+## ⭐ Support
+
+If this helped you learn, give it a star ⭐
+
+---
+
 ## 📄 License
 
-This project is under **MIT License** - see [LICENSE](LICENSE) file for details.
+MIT License - Free to use for learning
 
-**© 2024-2025 Gaurav Kumar**
+© 2024-2025 Gaurav Kumar
 
 ---
 
 <div align="center">
 
-### 💡 Learning Tips
+**Happy Learning! 🚀**
 
-📖 **Start with Arrays** → Work through folders in order  
-🔄 **Practice Daily** → Try one program each day  
-💻 **Modify Code** → Change values and see what happens  
-🎯 **Use Revision Folders** → Extra practice problems included
-
-**Happy Coding! 🚀**
+Made with ❤️ for students
 
 </div>
